@@ -1,0 +1,78 @@
+.social-mobile{
+  position: sticky;
+  width:44px;
+  background-color: var(--primary-light);
+  border-radius:10px;
+  
+  margin-top: 50px;
+  z-index: 100;
+  visibility: visible;
+}
+
+.social-mobile a{
+  
+  display: block;
+  padding:5px;
+  
+}
+
+.social{
+  visibility: hidden;
+}
+.navbar {
+  height:120px;
+}
+.showcase .container {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.features .features-container{
+  margin-top:3rem;
+  display: grid;
+  grid-template-columns: auto;
+  gap:1rem;
+}
+
+.testimonial h2 {
+  text-align: center;
+  margin-top:5rem;
+}
+
+.testimonial-container{
+  display:grid;
+  grid-template-columns: auto;
+  justify-items: center;
+  align-items: center;   
+}
+
+.testimonial-container div:nth-child(2){
+  grid-column:auto;
+}
+
+.testimonial-container div:nth-child(3){
+  grid-column: auto;
+}
+.testimonial-container div:nth-child(6){
+  grid-column: auto;
+}
+
+.testimonial-container div:nth-child(1),
+.testimonial-container div:nth-child(2){
+  order:1
+}
+.testimonial-container div:nth-child(3){
+  order:3;
+}
+
+.testimonial-container div:nth-child(4){
+ order: 2; 
+}
+
+.testimonial-container div:nth-child(5),
+.testimonial-container div:nth-child(6){
+  order:4;
+}
